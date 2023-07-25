@@ -2,16 +2,16 @@ import Discord from "discord.js";
 const { ButtonStyle, TextInputStyle } = Discord;
 
 export default {
-  PREFIX: "",
-  TOKEN: "",
+  PREFIX: "/",
+  TOKEN: "MTEzMzM2OTIyNjczMjc3MzM5Ng.GP3uPn.WyEI6cGH5lnprGtVgb11NVKXdL_GwqaLgJVkBA",
   ACTIVITY: { NAME: "", TYPE: "PLAYING" },
-  GUILD_ID: "",
+  GUILD_ID: "1133128287879704667",
   TICKET: {
-    CHANNEL: "",
-    CATEGORY: "",
-    ARCHIVE_CATEGORY: "",
-    MESSAGE: "Click to create ticket!",
-    STAFF_ROLES: [],
+    CHANNEL: "1133128290891215019",
+    CATEGORY: "1133128290417266710",
+    ARCHIVE_CATEGORY: "1133154466263220447",
+    MESSAGE: "Destek Oluşturmak İçin Tıkla",
+    STAFF_ROLES: [1133137977292370060],
     BUTTONS: [
       {
         STYLE: ButtonStyle.Success,
